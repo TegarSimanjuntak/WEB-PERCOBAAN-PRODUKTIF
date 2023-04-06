@@ -1,0 +1,98 @@
+
+*,
+html{
+    margin:0;
+    padding:0;
+}
+/* tambahkan warna background hitam ke navigasi atas */
+.container-navbar {
+    
+    background-color: white;
+    overflow: hidden;
+    list-style-type:none;
+    position:fixed;
+    width:100%;    
+  }
+  
+  /* Beri style link didalam bar navigasi */
+  .container-navbar a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color:white;
+    width:100%;
+    padding-right: 100px ;
+  }
+  .login{
+    color: white;
+    width: fit-content;
+    height:100%;
+    background-color: rgb(252, 170, 4);
+    z-index:10;
+    
+    float:right;
+    align-items:center;
+    display:flex;
+    gap:1px;
+    
+    }
+  
+  .card-title{
+    font-size: 35px;
+  }
+  .card-content{
+    
+    padding-top:none;
+    width:250px;
+    background-color: lightblue;
+    font-size:25px;
+    padding-left:none;
+  }
+  .send{
+    font-size: 30px;
+    color:white;
+    text-decoration: none;
+  }
+  .material-icons{
+    width: 10px;
+    height: 10ox;
+    background-color: red;
+  }
+  .card{
+    width: 100%;
+    padding: 100px 0 10px;
+    display: flex;
+    justify-content: center;
+    column-gap: none;
+    flex-wrap: wrap;
+  
+  }
+  .cardbox{
+    width: 300px;
+    height: fit-content;
+    margin-bottom: 12px;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .cardbox a{
+    align-self: center;
+      
+    opacity: 0.9;
+    transition: 200ms;
+  }
+  .footer-main{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:white;
+    text-align:center; 
+    background-color: black;
+  }
+  
+
+  
+  
+  
